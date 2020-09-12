@@ -155,10 +155,11 @@ function App() {
       </div>
       <div className="bg-purple-500 h-6"></div>
       <div className="mywork bg-cover bg-fixed flex justify-evenly align-middles flex-col items-center">
-        <div className="text-6xl text-white info font-bold shadow-sm">My work</div>
+        <div className="text-6xl text-white info font-bold">My work</div>
         <div className="flex flex-col items-center md:flex-row justify-evenly w-full">
+        <a href="https://ibnmaher.github.io/Vanilla/" target="_blank"  rel="noopener noreferrer">
         <div
-          className="resturante h-48 w-56 bg-orange-100 stick flex items-center "
+          className="resturante h-48 w-56 bg-orange-100 stick1 flex items-center "
           onMouseEnter={() => setIsShown(1)}
           onMouseLeave={() => setIsShown(0)}
         >
@@ -178,12 +179,14 @@ function App() {
                 duration: 1,
               }}
             >
-              <h1 className="ml-4 info">test</h1>
+              <h1 className="p-3 info">Vanilla: <span className="text-sm">is a vanilla HTML CSS JS and Bootstrap project it's a restaurant website template where you can see the restaurant menu, reviews and location and also for booking a table</span></h1>
             </motion.div>
           )}
         </div>
+        </a>
+        <a href="https://ibnmaher.github.io/Movies-hub/" target="_blank"  rel="noopener noreferrer">
         <div
-          className="resturante h-48 w-56 bg-orange-100 stick flex items-center "
+          className="resturante h-48 w-56 bg-orange-100 stick2 flex items-center "
           onMouseEnter={() => setIsShown(2)}
           onMouseLeave={() => setIsShown(0)}
         >
@@ -202,12 +205,14 @@ function App() {
                 duration: 1,
               }}
             >
-              <h1 className="ml-4 info">test</h1>
+              <h1 className="p-3 info">Movies hub: <span className="text-sm">is a REACT, bootstrap project, it's a website where you can see the latest popular movies releases or use the search feature you can also view the rating release date and trailer</span></h1>
             </motion.div>
           )}
         </div>
+        </a>
+        <a href="https://themoviebubble.netlify.app/" target="_blank"  rel="noopener noreferrer">
         <div
-          className="resturante h-48 w-56 bg-orange-100 stick flex items-center"
+          className="resturante h-48 w-56 bg-orange-100 stick3 flex items-center"
           onMouseEnter={() => setIsShown(3)}
           onMouseLeave={() => setIsShown(0)}
         >
@@ -226,14 +231,14 @@ function App() {
                 duration: 1,
               }}
             >
-              <h1 className="ml-4 info">test</h1>
+              <h1 className="p-3 info">The movie bubble: <span className="text-sm">is a REACT, tailwind project where you can take a quiz and get movies suggestion based on your answers</span></h1>
             </motion.div>
           )}
-
         </div>
+        </a>
         </div>
       </div>
-      <footer className="h-32 bg-gray-900 ">
+      <footer className="h-32 bg-gray-900 flex flex-col">
         <div className="flex justify-evenly w-full pt-12">
           <a
             href="https://www.linkedin.com/in/abdulrahman-maher-7597a01b6"
@@ -261,7 +266,7 @@ function App() {
         >
           9647510061066
         </div>
-        <div className="text-gray-700 mt-12 ml-2">Abdulrahman&#169;2020</div>
+        <div className="text-gray-700 mt-12 m-auto">Abdulrahman&#169;2020</div>
       </footer>
     </>
   );

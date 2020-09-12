@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 .Background{
-    background-image: url("./background.jpg");
+    background-image: url("./assets/background.jpg");
     height: 100vh;
 	font-family: Dosis, sans-serif;
 	background-position:40% 50%;
@@ -16,12 +16,12 @@
   height:100%; z-index:1;
 }
 .mywork{
-    height:110vh;
-    background-image: url("./2.jpg")
+    height:115vh;
+    background-image: url("./assets/2.jpg")
 }
 .speech-bubble {
 	position: relative;
-	background: #00aabb;
+	background: #9f7aea;
 	border-radius: .4em;
 }
 
@@ -33,14 +33,27 @@
 	width: 0;
 	height: 0;
 	border: 20px solid transparent;
-	border-top-color: #00aabb;
+	border-top-color: #9f7aea;
 	border-bottom: 0;
 	border-right: 0;
 	margin-left: -10px;
 	margin-bottom: -10px;
 }
-.stick{
+.stick1{
 clip-path: polygon(0 0, 100% 4%, 96% 99%, 0 98%);
-background-image: url(./background.jpg);
+background-image: url("./assets/super.png");
 background-size: cover;
+cursor: pointer
 }
+.stick2{
+	clip-path: polygon(0 0, 100% 4%, 96% 99%, 0 98%);
+	background-image: url("./assets/movie.png");
+	background-size: cover;
+	cursor: pointer
+	}
+	.stick3{
+		clip-path: polygon(0 0, 100% 4%, 96% 99%, 0 98%);
+		background-image: url("./assets/bubble.png");
+		background-size: cover;
+		cursor: pointer
+		}
