@@ -143,10 +143,10 @@ function App() {
           Hey, I'm{" "}
           <span className="font-bold text-orange-500">Abdulrahman</span>.
           <br></br>I'm a{" "}
-          <span className="font-bold text-white">Front-End developer</span> that
+          <span className="font-bold text-white">Front-End developer</span> from  <span className="font-bold text-white">Mosul</span> that
           enjoys turning <span className="font-bold text-white">numbers</span>{" "}
           and <span className="font-bold text-white">letters</span> into live
-          websites.{" "}
+          websites, If i'm not <span className="font-bold text-white">coding</span> i'm either <span className="font-bold text-white">drwaing</span>, <span className="font-bold text-white">soldering</span> or at the <span className="font-bold text-white">gym</span>. {" "}
         </h1>
         <h3 className="info text-gray-200 ml-2 text-3xl md:text-xl md:ml-40 md:pb-2">
           lets turn your ideas into{" "}
@@ -154,10 +154,11 @@ function App() {
         </h3>
       </div>
       <div className="bg-purple-500 h-6"></div>
-      <div className="mywork bg-cover bg-fixed flex justify-evenly align-middles flex-col items-center">
+      <div className="mywork bg-cover bg-fixed flex justify-evenly align-middles flex-col items-center h-auto md:h-120">
         <div className="text-6xl text-white info font-bold">My work</div>
-        <div className="flex flex-col items-center md:flex-row justify-evenly w-full">
+        <div className="flex flex-col items-center space-y-8 md:flex-row md:space-y-0 justify-evenly w-full">
         <a href="https://ibnmaher.github.io/Vanilla/" target="_blank"  rel="noopener noreferrer">
+          <h1 className="text-4xl text-gray-300 font-extrabold text-center info">Vanilla</h1>
         <div
           className="resturante h-48 w-56 bg-orange-100 stick1 flex items-center "
           onMouseEnter={() => setIsShown(1)}
@@ -185,6 +186,7 @@ function App() {
         </div>
         </a>
         <a href="https://ibnmaher.github.io/Movies-hub/" target="_blank"  rel="noopener noreferrer">
+        <h1 className="text-4xl text-gray-300 font-extrabold text-center info">Movies hub</h1>
         <div
           className="resturante h-48 w-56 bg-orange-100 stick2 flex items-center "
           onMouseEnter={() => setIsShown(2)}
@@ -211,6 +213,7 @@ function App() {
         </div>
         </a>
         <a href="https://themoviebubble.netlify.app/" target="_blank"  rel="noopener noreferrer">
+          <h1 className="text-4xl text-gray-300 font-extrabold text-center info">The movie bubble</h1>
         <div
           className="resturante h-48 w-56 bg-orange-100 stick3 flex items-center"
           onMouseEnter={() => setIsShown(3)}

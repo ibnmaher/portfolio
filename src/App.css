@@ -9,15 +9,21 @@
     background-color: #000000;
 }
 .info{
-    font-family: Dosis, sans-serif;
+	font-family: Dosis, sans-serif;
 }
 .particles{
     position : absolute; width:100%;
   height:100%; z-index:1;
 }
 .mywork{
-    height:120vh;
-    background-image: url("./assets/2.jpg")
+	background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+
+	url("./assets/2.jpg");
+	
 }
 .speech-bubble {
 	position: relative;
@@ -43,17 +49,23 @@
 clip-path: polygon(0 0, 100% 4%, 96% 99%, 0 98%);
 background-image: url("./assets/super.png");
 background-size: cover;
-cursor: pointer
+cursor: pointer;
+width: 20rem;
+height: 20rem;
 }
 .stick2{
 	clip-path: polygon(0 0, 100% 4%, 96% 99%, 0 98%);
 	background-image: url("./assets/movie.png");
 	background-size: cover;
-	cursor: pointer
+	cursor: pointer;
+	width: 20rem;
+	height: 20rem;
 	}
 	.stick3{
 		clip-path: polygon(0 0, 100% 4%, 96% 99%, 0 98%);
 		background-image: url("./assets/bubble.png");
 		background-size: cover;
-		cursor: pointer
+		cursor: pointer;
+		width: 20rem;
+		height: 20rem;
 		}
