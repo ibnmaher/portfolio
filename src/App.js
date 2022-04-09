@@ -143,10 +143,10 @@ function App() {
           Hey, I'm{" "}
           <span className="font-bold text-orange-500">Abdulrahman</span>.
           <br></br>I'm a{" "}
-          <span className="font-bold text-white">Front-End developer</span> from  <span className="font-bold text-white">Mosul</span> that
+          <span className="font-bold text-white">Full-Stack developer</span> from  <span className="font-bold text-white">Mosul</span> that
           enjoys turning <span className="font-bold text-white">numbers</span>{" "}
           and <span className="font-bold text-white">letters</span> into live
-          websites, If i'm not <span className="font-bold text-white">coding</span> i'm either <span className="font-bold text-white">drwaing</span>, <span className="font-bold text-white">soldering</span> or at the <span className="font-bold text-white">gym</span>. {" "}
+          websites, If i'm not <span className="font-bold text-white">coding</span> i'm either <span className="font-bold text-white">drawing</span>, <span className="font-bold text-white">soldering</span> or at the <span className="font-bold text-white">gym</span>. {" "}
         </h1>
         <h3 className="info text-gray-200 ml-2 text-3xl md:text-xl md:ml-40 md:pb-2">
           lets turn your ideas into{" "}
@@ -212,10 +212,10 @@ function App() {
           )}
         </div>
         </a>
-        <a href="https://themoviebubble.netlify.app/" target="_blank"  rel="noopener noreferrer">
+        <a href="http://159.223.28.33/" target="_blank"  rel="noopener noreferrer">
           <h1 className="text-4xl text-gray-300 font-extrabold text-center info">The movie bubble</h1>
         <div
-          className="resturante h-48 w-56 bg-orange-100 stick3 flex items-center"
+          className="restaurant h-48 w-56 bg-orange-100 stick3 flex items-center"
           onMouseEnter={() => setIsShown(3)}
           onMouseLeave={() => setIsShown(0)}
         >
@@ -234,7 +234,7 @@ function App() {
                 duration: 1,
               }}
             >
-              <h1 className="p-3 info">The movie bubble: <span className="text-sm">is a REACT, tailwind project where you can take a quiz and get movies suggestion based on your answers</span></h1>
+              <h1 className="p-3 info">Artisan: <span className="text-sm">is a PERN-stack, (socket.io,tailwind,framer-motion) project where you can either sign up as a user or artisan to look for or offer a service</span></h1>
             </motion.div>
           )}
         </div>

@@ -63,7 +63,7 @@ height: 20rem;
 	}
 	.stick3{
 		clip-path: polygon(0 0, 100% 4%, 96% 99%, 0 98%);
-		background-image: url("./assets/bubble.png");
+		background-image: url("./assets/home.png");
 		background-size: cover;
 		cursor: pointer;
 		width: 20rem;
