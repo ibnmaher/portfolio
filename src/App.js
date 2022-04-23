@@ -213,7 +213,7 @@ function App() {
         </div>
         </a>
         <a href="http://159.223.28.33/" target="_blank"  rel="noopener noreferrer">
-          <h1 className="text-4xl text-gray-300 font-extrabold text-center info">The movie bubble</h1>
+          <h1 className="text-4xl text-gray-300 font-extrabold text-center info">Artisan</h1>
         <div
           className="restaurant h-48 w-56 bg-orange-100 stick3 flex items-center"
           onMouseEnter={() => setIsShown(3)}
